@@ -3,7 +3,7 @@ import React from "react";
 const QouteAuthor = (props) => {
   return (
     <div>
-      <p id="author">{`-${props.author}`}</p>
+      <h4 id="author">{`-${props.author}`}</h4>
     </div>
   );
 };
