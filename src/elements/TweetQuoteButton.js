@@ -1,9 +1,9 @@
 import React from "react";
 
-const TweetQuoteButton = () => {
+const TweetQuoteButton = (props) => {
   return (
     <div className="tweet-quote-button">
-      <a id="tweet-quote" href="twitter.com/intent/tweet" target="_blank">
+      <a id="tweet-quote" href={`https://www.twitter.com/intent/tweet?text=${props.quotes}`} target="_blank" rel="noreferrer">
         <button>
           <i className="fa fa-twitter"></i>
         </button>
